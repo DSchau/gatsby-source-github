@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DSchau/gatsby-source-github.svg?branch=master)](https://travis-ci.org/DSchau/gatsby-source-github)
 
-Source plugin for pulling in Github data (using it's [GraphQL API][github-api]) at buildtime for static generation and further GraphQL querying with Gatsby
+Source plugin for pulling in Github data (using its [GraphQL API][github-api]) at buildtime for static generation and further GraphQL querying with Gatsby
 
 ## Install
 
