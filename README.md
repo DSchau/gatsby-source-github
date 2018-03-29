@@ -79,7 +79,9 @@ Additionally, variables can be used/injectd into the queries. Rather than sendin
 
 ### The algorithm
 
-The algorithm is quite simple. It'll descend through the tree/returned structure, and if it finds an `edges` parameter will use the parent of that as the node name. For instance, in the above example, `githubIssue` will be the node name, and `allGithubIssues` will be the way to query against all nodes. All fields in the node that are queried against in the Github GraphQL query are available to be queried with Gatsby. For example, in the above example, `id`, `author` (and subfields), `bodyHTML`, etc. are available to be queried against.
+The algorithm is quite simple. It'll descend through the tree/returned structure, and if it finds an `edges` key will use the parent of that as the node name. For instance, in the above `repository` example, `githubIssue` will be the node name, and `allGithubIssues` will be the way to query against all nodes. In the `viewer` example the node name will be `githubViewer`.
+
+All fields in the node that are queried against in the Github GraphQL query are available to be queried with Gatsby. For example, in the `repository` example above, `id`, `author` (and subfields), `bodyHTML`, etc. are available to be queried against.
 
 [github-api]: https://developer.github.com/v4/
 [explorer]: https://developer.github.com/v4/explorer/
