@@ -2,7 +2,7 @@
   "name": "gatsby-source-github",
   "description":
     "A gatsby source plugin to source Github's GraphQL API for build-time data for Gatsby",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Dustin Schau <dustinschau@gmail.com> (https://dustinschau.com)",
   "repository": "https://github.com/DSchau/gatsby-source-github.git",
