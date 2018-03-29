@@ -59,18 +59,18 @@ Additionally, variables can be used/injectd into the queries. Rather than sendin
 ```javascript
 [
   `query getViewer($first: Int!) {
-            viewer {
-              login
-              name
-              repositories(first:$first) {
-                edges {
-                  node {
-                    name
-                  }
-                }
-              }
-            }
-          }`,
+    viewer {
+      login
+      name
+      repositories(first:$first) {
+        edges {
+          node {
+            name
+          }
+        }
+      }
+    }
+  }`,
   { first: 10 },
 ];
 ```
