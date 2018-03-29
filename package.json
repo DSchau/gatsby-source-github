@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-github",
+  "name": "@dschau/gatsby-source-github",
   "description":
     "A gatsby source plugin to source Github's GraphQL API for build-time data for Gatsby",
   "version": "0.0.1",
