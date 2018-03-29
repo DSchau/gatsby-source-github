@@ -1,5 +1,5 @@
 {
-  "name": "@dschau/gatsby-source-github",
+  "name": "gatsby-source-github",
   "description":
     "A gatsby source plugin to source Github's GraphQL API for build-time data for Gatsby",
   "version": "0.0.1",
@@ -29,8 +29,5 @@
     "graphql-request": "~1.5.1",
     "lodash": "~4.17.5",
     "yup": "~0.24.1"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

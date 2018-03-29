@@ -7,7 +7,7 @@ Source plugin for pulling in Github data (using its [GraphQL API][github-api]) a
 ## Install
 
 ```bash
-npm install @dschau/gatsby-source-github
+npm install gatsby-source-github --save-dev
 ```
 
 ## How to use
@@ -17,7 +17,7 @@ In your `gatsby-config.js`:
 ```javascript
 plugins: [
   {
-    resolve: '@dschau/gatsby-source-github',
+    resolve: 'gatsby-source-github',
     options: {
       headers: {
         Authorization: `Bearer YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`, // https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
