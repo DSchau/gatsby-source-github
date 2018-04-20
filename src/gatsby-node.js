@@ -50,10 +50,13 @@ export async function sourceNodes({ boundActionCreators }, pluginOptions) {
       const rootName = getRootEl(edge);
       const rootElement = edge[rootName];
 
+      const { edges, ...rest } = rootElement;
+
       if (rootElement && Array.isArray(rootElement.edges)) {
         rootElement.edges.forEach((childNode, edgeIndex) => {
           const node = childNode.node || childNode;
           createNode({
+            ...rest,
             ...node,
             id: node.id || `__github__${rootName}__${edgeIndex}__`,
             children: [],
