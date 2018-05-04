@@ -56,7 +56,7 @@ In general, use the [Github API v4 documentation][github-api] and in particular,
 
 ### Using variables
 
-Additionally, variables can be used/injectd into the queries. Rather than sending a string in the queries array, send an array like so:
+Additionally, variables can be used/injected into the queries. Rather than sending a string in the queries array, send an array like so:
 
 ```javascript
 [
