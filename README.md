@@ -1,6 +1,12 @@
-# gatsby-source-github
+# gatsby-source-github (DEPRECATED)
 
 [![Build Status](https://travis-ci.org/DSchau/gatsby-source-github.svg?branch=master)](https://travis-ci.org/DSchau/gatsby-source-github)
+
+---
+
+Use [gatsby-source-graphql](https://www.gatsbyjs.org/packages/gatsby-source-graphql/) to enable schema stitching with Github's API, rather than this source plugin.
+
+---
 
 Source plugin for pulling in Github data (using its [GraphQL API][github-api]) at buildtime for static generation and further GraphQL querying with Gatsby. Check out [this repo](https://github.com/DSchau/speaker-signup/blob/4870b6c9643f3eb6fcf96f30661eb07653a03780/gatsby-config.js#L33-L79) for an example usage.
 
