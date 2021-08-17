@@ -31,8 +31,8 @@ const findEdge = obj => {
 
 const upper = str => startCase(toLower(str));
 
-export async function sourceNodes({ boundActionCreators }, pluginOptions) {
-  const { createNode } = boundActionCreators;
+export async function sourceNodes({ actions }, pluginOptions) {
+  const { createNode } = actions;
 
   const { headers, queries, url: apiUrl } = await schema.validate(
     pluginOptions
